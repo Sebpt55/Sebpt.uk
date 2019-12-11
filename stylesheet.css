@@ -1,0 +1,293 @@
+/* css master sheet for the website */
+/* css comments refer to the code below it */
+html{
+	scroll-behaviour:smooth;
+}
+/* h1 css style */
+h1 {
+  color: #FF5C0A;
+  font-family: verdana;
+  font-size: 300%;
+
+}
+
+
+/* Home page picture css */
+  * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+ 
+
+/* Footer Css */
+footer {
+  background-color: #4982EB;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+article {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+
+/* Header CSS*/
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #4982EB;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.header a.active {
+  background-color: #190E80;
+  color: white;
+}
+
+.header-right {
+  float: right;
+  
+}/* Header2 CSS I made this separate because i didnt want the other headers to scroll downm, just the picture page */
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header2 {
+  overflow: hidden;
+  background-color: #4982EB;
+  padding: 20px 10px;
+}
+
+.header2 a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header2 a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header2 a:hover {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.header2 a.active {
+  background-color: #190E80;
+  color: white;
+}
+
+.header2-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header2 a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header2-right {
+    float: none;
+  }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.content {
+  padding: 16px;
+}
+
+/* picture layout */
+
+pheader {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+psection {
+  display: -webkit-flex;
+  display: flex;
+}
+
+pnav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+pnav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+particle {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+pfooter {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  psection {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
