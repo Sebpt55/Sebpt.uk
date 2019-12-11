@@ -2,14 +2,13 @@
 <html>
 <html lang="en">
 <head>
-<meta http-equiv="refresh" content="10">
 <meta name="description" content="CPD Website">
 <meta name="author" content="Seb Price Thomas">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="stylesheet.css">
 
 </head>
-<! comment -->
+
 <body style="background-color:#73C1FE;">
 
 <div class="header">
@@ -22,9 +21,7 @@
 
 <h1>Sebs CPD Website  </h1>
 
-<! start of slideshow code. the code below is the framework behind the slideshow
-it starts with the div classes for each individual image, this allows me to change the
-width and text displayed. -->
+
 <div class="slideshow-container">
 
 <div class="mySlides fade">
@@ -49,9 +46,9 @@ width and text displayed. -->
 <br>
 
 <div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
 </div>
 
 <script>
@@ -63,16 +60,16 @@ function showSlides() {
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+    slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
+  if (slideIndex > slides.length) {slideIndex = 1}
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); 
+  setTimeout(showSlides, 2000);
 }
 </script>
 
@@ -83,19 +80,19 @@ function showSlides() {
 <section>
  <article>
     <h1>Lorem Impsum</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-	sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-	Molestie at elementum eu facilisis sed odio. Arcu dui vivamus arcu felis. 
-	Imperdiet proin fermentum leo vel orci porta non. Imperdiet nulla malesuada 
-	pellentesque elit eget gravida cum sociis. Mattis ullamcorper velit sed ullamcorper. 
-	Tortor consequat id porta nibh. Placerat duis ultricies lacus sed turpis tincidunt id. 
-	Mollis nunc sed id semper risus in hendrerit. Eget mauris pharetra et ultrices neque 
-	ornare aenean euismod elementum. Euismod elementum nisi quis eleifend quam adipiscing vitae. 
-	Sed turpis tincidunt id aliquet risus feugiat in ante metus. Venenatis tellus in metus vulputate. 
-	Ut sem nulla pharetra diam. Velit ut tortor pretium viverra suspendisse potenti. Egestas 
-	sed sed risus pretium quam vulputate dignissim. Mollis aliquam ut porttitor leo a diam 
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+	sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+	Molestie at elementum eu facilisis sed odio. Arcu dui vivamus arcu felis.
+	Imperdiet proin fermentum leo vel orci porta non. Imperdiet nulla malesuada
+	pellentesque elit eget gravida cum sociis. Mattis ullamcorper velit sed ullamcorper.
+	Tortor consequat id porta nibh. Placerat duis ultricies lacus sed turpis tincidunt id.
+	Mollis nunc sed id semper risus in hendrerit. Eget mauris pharetra et ultrices neque
+	ornare aenean euismod elementum. Euismod elementum nisi quis eleifend quam adipiscing vitae.
+	Sed turpis tincidunt id aliquet risus feugiat in ante metus. Venenatis tellus in metus vulputate.
+	Ut sem nulla pharetra diam. Velit ut tortor pretium viverra suspendisse potenti. Egestas
+	sed sed risus pretium quam vulputate dignissim. Mollis aliquam ut porttitor leo a diam
 	sollicitudin tempor id.</p>
-    
+
   </article>
 </section>
 
