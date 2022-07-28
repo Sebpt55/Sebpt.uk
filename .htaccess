@@ -1,0 +1,4 @@
+# this is a comment
+# mod_rewrite starts here
+
+RewriteEngine on
