@@ -81,7 +81,7 @@ img {vertical-align: middle;}
 
 /* Footer Css */
 footer {
-  background-color: #4982EB;
+  background-color: #0a0a0b;
   padding: 10px;
   text-align: center;
   color: white;
@@ -101,7 +101,7 @@ body {
 
 .header {
   overflow: hidden;
-  background-color: #4982EB;
+  background-color: #d6d7d7;
   padding: 20px 10px;
 }
 
@@ -127,7 +127,7 @@ body {
 }
 
 .header a.active {
-  background-color: #190E80;
+  background-color: #7d7b8f;
   color: white;
 }
 
@@ -142,7 +142,7 @@ body {
 
 .header2 {
   overflow: hidden;
-  background-color: #4982EB;
+  background-color: #4f5c75;
   padding: 20px 10px;
 }
 
@@ -168,7 +168,7 @@ body {
 }
 
 .header2 a.active {
-  background-color: #190E80;
+  background-color: #7973a7;
   color: white;
 }
 
