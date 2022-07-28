@@ -12,6 +12,7 @@ h1 {
 article {
   background-color: #414548;
   padding: 10px;
+  width: clamp(200px, 50% 600px);
 }
 
 
