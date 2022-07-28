@@ -58,3 +58,11 @@ body {
 .header-right {
   float: right;
 }
+/* End of Header CSS*/
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 500px 1fr;
+  grid-template-rows: 100px 200px;
+  place-content: center;
+}
