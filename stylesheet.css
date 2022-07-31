@@ -15,6 +15,10 @@ article {
   width: clamp(200px, 50% 600px);
 }
 
+.element {
+  background-image: url(/images/background.svg);
+}
+
 
 /* Header CSS*/
 body { 
