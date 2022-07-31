@@ -16,9 +16,9 @@ article {
 }
 
 .content {
-  background-image: url(/images/background.svg) no-repeat center center fixed;
-  background-size:     cover;                      /* <------ */
-  background-repeat:   no-repeat;
+  background-image: url(/images/background.svg);
+  background-size:     cover;                     
+  background-repeat:   repeat;
   background-position: center center; 
 }
 
