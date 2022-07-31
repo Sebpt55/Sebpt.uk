@@ -23,6 +23,14 @@ body {
   background-color:#414547;
 }
 
+p {
+color :#ffffff
+}
+
+h2{
+  color: #ffffff;
+}
+
 .header {
   overflow: hidden;
   background-color: #393939;
