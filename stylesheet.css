@@ -15,7 +15,7 @@ article {
   width: clamp(200px, 50% 600px);
 }
 
-.element {
+.content {
   background-image: url(/images/background.svg);
 }
 
