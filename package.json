@@ -3,6 +3,18 @@
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
     "@fontsource/roboto": "^4.5.7",
-    "@mui/material": "^5.9.3"
+    "@mui/material": "^5.9.3",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "https://github.com/mui/material-ui/blob/v5.9.3/docs/data/material/components/grid/NestedGrid.js",
+  "devDependencies": {
+    "react-scripts": "latest"
   }
 }
