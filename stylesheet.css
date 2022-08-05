@@ -5,7 +5,6 @@
 h1 {
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
-  font-size: 300%;
   text-align: center;
 }
 
@@ -21,6 +20,7 @@ body {
   margin: 0;
   font-family:'Roboto', sans-serif;
   background-color:#414547;
+  
 }
 
 
@@ -33,6 +33,7 @@ body {
   background-position: center center; 
   height:90.5vh;
   width:99.9vw;
+  
 }
 
 /* navbar CSS*/
@@ -120,15 +121,12 @@ body {
 }
 
 .wrapper > * {
-  
   flex: 1 100%;
 }
 
 
-
 .main {
   text-align: left;
-  
 }
 
 .aside-1 {
@@ -139,11 +137,11 @@ body {
   
 }
 
-@media all and (min-width: 600px) {
+@media all  {
   .aside { flex: 1 0 0; }
 }
 
-@media all and (min-width: 700px) {
+@media all  {
   .main    { flex: 3 0px; }
   .aside-1 { order: 1; } 
   .main    { order: 2; }
@@ -151,3 +149,17 @@ body {
   .footer  { order: 4; }
 }
 
+div.card {
+  width:300px;
+  text-align: center;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+div.cardheader {
+  background-color: #393939;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 25px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
