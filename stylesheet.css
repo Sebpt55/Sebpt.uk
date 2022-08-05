@@ -120,7 +120,7 @@ body {
 }
 
 .wrapper > * {
-  padding: 10px;
+  
   flex: 1 100%;
 }
 
@@ -148,9 +148,6 @@ body {
   .aside-1 { order: 1; } 
   .main    { order: 2; }
   .aside-2 { order: 3; }
-  
+  .footer  { order: 4; }
 }
 
-body {
-  padding: 2em; 
-}
