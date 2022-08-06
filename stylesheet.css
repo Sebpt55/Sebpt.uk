@@ -114,29 +114,30 @@ body {
   display: flex;  
   flex-flow: row wrap;
   font-weight: bold;
-  
+
+  align-content: center;
 }
 
 .wrapper > * {
   flex: 1 100%;
+  
 }
 
 
 .main {
-  text-align: left;
-  align-content: center;
-  margin-right: 8px;
-  margin-left: 8px;
+  width: 965px;
+  height: 645px;
+
 }
 
 .aside-1 {
-  margin-right: 80px;
   margin-left: 80px;
+  margin-right: 80px;
 }
 
 .aside-2 {
-  margin-right: 80px;
-  margin-left: 80px;
+ margin-right: 80px;
+ margin-left: 80px;
 }
 
 @media all  {
@@ -144,7 +145,7 @@ body {
 }
 
 @media all  {
-  .main    { flex: 3 0px; }
+  .main    { flex: 1 0px; }
   .aside-1 { order: 1; } 
   .main    { order: 2; }
   .aside-2 { order: 3; }
@@ -152,7 +153,7 @@ body {
 }
 
 div.card {
-  width:300px;
+  
   text-align: center;
   
 }
@@ -163,4 +164,5 @@ div.cardheader {
   font-size: 20px;
   border-radius: 25px;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
 }
