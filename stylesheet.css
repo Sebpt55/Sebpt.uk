@@ -19,7 +19,10 @@ h2{
 body { 
   margin: 0;
   font-family:'Roboto', sans-serif;
-  background-color:#414547;
+  background-image: url(/images/background.svg);
+  background-size:     cover;                     
+  background-repeat:   repeat;
+  background-position: center center; 
   
 }
 
@@ -27,13 +30,7 @@ body {
 
 /* background for website */
 .content {
-  background-image: url(/images/background.svg);
-  background-size:     cover;                     
-  background-repeat:   repeat;
-  background-position: center center; 
-  height:90.5vh;
-  width:99.9vw;
-  
+
 }
 
 /* navbar CSS*/
@@ -117,7 +114,7 @@ body {
   display: flex;  
   flex-flow: row wrap;
   font-weight: bold;
-  text-align: center; 
+  
 }
 
 .wrapper > * {
@@ -127,14 +124,19 @@ body {
 
 .main {
   text-align: left;
+  align-content: center;
+  margin-right: 8px;
+  margin-left: 8px;
 }
 
 .aside-1 {
-  
+  margin-right: 80px;
+  margin-left: 80px;
 }
 
 .aside-2 {
-  
+  margin-right: 80px;
+  margin-left: 80px;
 }
 
 @media all  {
@@ -152,8 +154,7 @@ body {
 div.card {
   width:300px;
   text-align: center;
-  margin-right: 80px;
-  margin-left: 80px;
+  
 }
 div.cardheader {
   background-color: #393939;
