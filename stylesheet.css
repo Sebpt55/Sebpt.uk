@@ -112,9 +112,7 @@ body {
 
 .wrapper {
   display: flex;  
-  
   font-weight: bold;
-
   align-content: center;
 }
 
@@ -141,7 +139,6 @@ body {
 }
 
 @media all  {
-
 }
 
 @media all  {
