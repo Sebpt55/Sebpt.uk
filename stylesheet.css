@@ -1,6 +1,6 @@
 /* css master sheet for the website */
 /* css comments refer to the code below it */
-
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 /* text styles */
 h1 {
   color: #ffffff;
@@ -95,9 +95,7 @@ body {
 /* Columns */
 
 .column {
-  float: left;
-  width: 50%;
-  padding: 10px;
+  
   
 }
 
@@ -162,4 +160,56 @@ div.cardheader {
   border-radius: 25px;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
+}
+
+h5{
+  margin-top: -15px;
+  font-size: 20px;
+}
+
+.container{
+  width: 100%; 
+  padding: 2px 16px;
+  align-content: center;
+}
+.bcard {
+    transition: .75s;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: white;
+    border-radius: 5px;
+    float: left;
+    width: 200px;
+    height: 250px;
+}
+.bcard:hover{
+  z-index: 10 !important;
+  transform: scale(1.05);
+  
+}
+
+.adve{
+  width: 200px;
+  height: auto;
+  border-bottom: 6px solid #2155a8;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.text{
+  padding: 2px 16px;
+  
+}
+
+
+
+.adv{
+  color: #2155a8;
+  margin-top: 0;
+}
+
+
+
+.pic{
+  margin-top: -145px;
 }
