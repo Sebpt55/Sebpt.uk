@@ -8,6 +8,12 @@ h1 {
   text-align: center;
 }
 
+h4 {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
 p {
   color :#ffffff
   }
@@ -25,6 +31,12 @@ body {
   background-position: center center; 
   width: 100%;
   height: 100%;
+}
+
+
+h5{
+  margin-top: -15px;
+  font-size: 20px;
 }
 
 
@@ -180,9 +192,5 @@ div.cardheader {
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-h5{
-  margin-top: -15px;
-  font-size: 20px;
-}
 
 /* End Of Unity Grid */
