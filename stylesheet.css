@@ -86,29 +86,43 @@ body {
 }
 /* End of navbar CSS*/
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 500px 1fr;
-  grid-template-rows: 100px 200px;
-  place-content: center;
-}
 
-/* Columns */
+
+/* Start of Index Centre Cards */
 
 .column {
-  
-  width: 50%;
-  padding: 10px;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.row {
+  display: flex;
+  justify-content: center;
+  margin-top: 140px;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between; 
+  max-width: 800px; 
+  margin: auto; 
+}
+
+.bcard {
+  text-align: center;
+}
+
+.adve{
+  width: 200px;
+  height: auto;
+  border-bottom: 6px solid #2155a8;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  margin: 10px; /* Spacing between cards */
+}
+
+/* End of Index Centre Cards */
 /* Unity Grid */
 
 .wrapper {
@@ -170,48 +184,25 @@ h5{
   font-size: 20px;
 }
 
-.container{
-  width: 100%; 
-  padding: 2px 16px;
-  align-content: center;
-}
-.bcard {
-    transition: .75s;
-    margin-left: 10px;
-    margin-top: 10px;
-    background: white;
-    border-radius: 5px;
-    float: left;
-    width: 200px;
-    height: 250px;
-}
+
+
 .bcard:hover{
   z-index: 10 !important;
   transform: scale(1.05);
   
 }
 
-.adve{
-  width: 200px;
-  height: auto;
-  border-bottom: 6px solid #2155a8;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-}
+
 
 .text{
   padding: 2px 16px;
   
 }
 
-
-
 .adv{
   color: #2155a8;
   margin-top: 0;
 }
-
-
 
 .pic{
   margin-top: -145px;
