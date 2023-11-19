@@ -3,3 +3,8 @@ $('.container').isotope({
     layoutMode: 'masonry',
     sortBy : 'random'
   });
+
+function toggleMenu() {
+    var navbar = document.querySelector('.navbar');
+    navbar.classList.toggle('active');
+}  
